@@ -1,0 +1,50 @@
+nav {
+  display: flex;
+  margin: 0 16%;
+  justify-content: space-between;
+  height: 164px;
+  font-family: roboto;
+  .nav-logo {
+    font-size: 26px;
+  }
+  .nav-menu {
+    ul {
+      display: flex;
+      margin-top: 35px;
+      //   position: absolute;
+      //   left: 33%;
+    }
+    li {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 8%;
+    }
+    a {
+      text-decoration: none;
+      list-style: none;
+      font-size: 14px;
+      font-family: roboto, arial;
+      color: #757575;
+    }
+  }
+  .nav-func {
+    display: flex;
+    margin-left: 294px;
+    margin-top: 28px;
+    a {
+      text-decoration: none;
+      color: #757575;
+      font-size: 14px;
+    }
+    i {
+      font-size: 20px;
+    }
+    .search,
+    .account,
+    .cart {
+      display: flex;
+      flex-flow: column;
+      margin-left: 30px;
+    }
+  }
+}
