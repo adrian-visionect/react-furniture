@@ -19,4 +19,88 @@
   /* position: absolute; */
   margin-top: 321px;
   margin-left: 125px;
+  p {
+    font-size: 22px;
+    font-family: roboto, arial;
+    font-weight: bold;
+    margin-top: 5px;
+    position: absolute;
+    color: #424242;
+  }
+  p:nth-of-type(2) {
+    font-size: 18px;
+    font-family: roboto, arial;
+    /* font-weight: bold; */
+    position: absolute;
+    margin-top: 140px;
+    color: #424242;
+    text-transform: uppercase;
+  }
+  p span {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  h1 {
+    position: absolute;
+    font-family: playfair display;
+    font-size: 68px;
+    position: absolute;
+    margin-top: 40px;
+    color: #424242;
+  }
+}
+
+.small-slider {
+  height: 227px;
+  width: 259px;
+  background: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  margin-top: 312px;
+  right: 130px;
+
+  p {
+    color: white;
+    font-family: roboto;
+    font-weight: bold;
+    z-index: 200;
+    position: absolute;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  h5 {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    color: white;
+    z-index: 200;
+    margin-top: 77px;
+    margin-left: 30px;
+  }
+  .img-chair {
+    position: absolute;
+    right: 1%;
+    z-index: 100;
+    opacity: 0.5;
+  }
+  .buttons {
+    display: flex;
+  }
+  .button-undoredo {
+    width: 130px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 0.1px solid white;
+    background-color: #424242;
+    cursor: pointer;
+    // position: absolute;
+    margin-top: 147px;
+    bottom: 0;
+    z-index: 100;
+    font-size: 50px;
+  }
 }

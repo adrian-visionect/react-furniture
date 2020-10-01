@@ -2,7 +2,9 @@ import React from 'react';
 import './Slider.scss';
 import { Chair } from './Chair';
 import LongChair from '../../images/LongChair.png';
+import ChairImg from '../../images/Chair.png';
 import ButtonShopNow from '../Buttons/ButtonShopNow';
+import Button from './Button';
 
 const Slider = () => {
   return (
@@ -18,8 +20,19 @@ const Slider = () => {
             <div className="slider-info" key={index}>
               <p>{item.collection}</p>
               <h1>{item.name}</h1>
-              <p>{item.price}</p>
-              <ButtonShopNow value="Shop Now" name="Shop Now" />
+              <p>
+                from <span>{item.price}</span>
+              </p>
+              <ButtonShopNow name="Shop Now" />
+              <div className="small-slider">
+                <p>{item.collection}</p>
+                <h5>{item.name}</h5>
+                <img className="img-chair" alt="chair" src={ChairImg}></img>
+                <div className="buttons">
+                  <Button name="<" />
+                  <Button name=">" />
+                </div>
+              </div>
             </div>
           );
         })}
