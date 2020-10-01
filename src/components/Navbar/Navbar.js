@@ -21,15 +21,15 @@ const Navbar = () => {
       </div>
       <div className="nav-func">
         <div className="search">
-          <i class="fa fa-search"></i>
+          <i className="fa fa-search"></i>
           <a href="#/">Search</a>
         </div>
         <div className="account">
-          <i class="fa fa-user"></i>
+          <i className="fa fa-user"></i>
           <a href="#/">Account</a>
         </div>
         <div className="cart">
-          <i class="fa fa-shopping-cart"></i>
+          <i className="fa fa-shopping-cart"></i>
           <a href="#/">Cart</a>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
+import Slider from './components/Slider/Slider';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Navbar />
+      <Slider />
     </div>
   );
 }
