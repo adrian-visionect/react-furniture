@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Slider from './components/Slider/Slider';
 import './App.css';
 import CoffeeTables from './components/CoffeeTables/CoffeeTables';
+import ProductsList from './components/ProductsList/ProductsList';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Slider />
       <CoffeeTables />
+      <ProductsList />
     </div>
   );
 }
