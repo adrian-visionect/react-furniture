@@ -4,6 +4,11 @@ import CategoriesButton from './Categories/CategoriesButton';
 import './ButtonsBackNext';
 import ButtonBackNext from './ButtonsBackNext';
 import ProductCard from './ProductCard';
+import picture1 from './../../images/picture1.png';
+import picture2 from './../../images/picture2.png';
+import picture3 from './../../images/picture3.png';
+import picture4 from './../../images/picture4.png';
+
 const ProductsList = () => {
   return (
     <div className="products-list">
@@ -20,14 +25,54 @@ const ProductsList = () => {
           <ButtonBackNext btnName="Next" />
         </div>
         <div className="prod-items">
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          <ProductCard
+            prodName="Depo Designs Woolrich Klettersack Backpack"
+            cat="Chanel"
+            price="$98"
+            image={picture1}
+          />
+          <ProductCard
+            prodName="Depo Designs Woolrich Klettersack Backpack"
+            cat="Chanel"
+            price="$98"
+            image={picture2}
+          />
+          <ProductCard
+            prodName="Depo Designs Woolrich Klettersack Backpack"
+            cat="Chanel"
+            price="$98"
+            image={picture3}
+          />
+          <ProductCard
+            prodName="Depo Designs Woolrich Klettersack Backpack"
+            cat="Chanel"
+            price="$98"
+            image={picture4}
+          />
+          <ProductCard
+            prodName="Depo Designs Woolrich Klettersack Backpack"
+            cat="Chanel"
+            price="$98"
+            image={picture1}
+          />
+          <ProductCard
+            prodName="Depo Designs Woolrich Klettersack Backpack"
+            cat="Chanel"
+            price="$98"
+            image={picture2}
+          />
+          <ProductCard
+            prodName="Depo Designs Woolrich Klettersack Backpack"
+            cat="Chanel"
+            price="$98"
+            image={picture3}
+          />
+          <ProductCard
+            prodName="Depo Designs Woolrich Klettersack Backpack"
+            cat="Chanel"
+            price="$98"
+            image={picture4}
+          />
         </div>
       </div>
     </div>
