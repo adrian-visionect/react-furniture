@@ -5,7 +5,7 @@ import Slider from './components/Slider/Slider';
 import './App.css';
 import CoffeeTables from './components/CoffeeTables/CoffeeTables';
 import ProductsList from './components/ProductsList/ProductsList';
-
+import Sale from './components/Sale/Sale';
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
       <Slider />
       <CoffeeTables />
       <ProductsList />
+      <Sale />
     </div>
   );
 }

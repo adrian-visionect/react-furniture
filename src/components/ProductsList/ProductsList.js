@@ -75,6 +75,10 @@ const ProductsList = () => {
           />
         </div>
       </div>
+
+      <button type="button" className="btn-view">
+        View All
+      </button>
     </div>
   );
 };

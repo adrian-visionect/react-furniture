@@ -6,11 +6,13 @@ const ProductCard = (props) => {
     <div className="prod-card">
       <div className="div-upper">
         <img className="prod-img" src={props.image} alt="prod" />
-        <div className="prod-buttons">
-          <ProductButton btnName="  ADD TO CART" icon="fa fa-shopping-cart" />
-          <ProductButton icon="fa fa-search" />
-          <ProductButton icon="fa fa-heart" />
-          <ProductButton icon="fa fa-exchange" />
+        <div className="hoverme">
+          <div className="prod-buttons">
+            <ProductButton btnName="  ADD TO CART" icon="fa fa-shopping-cart" />
+            <ProductButton icon="fa fa-search" />
+            <ProductButton icon="fa fa-heart" />
+            <ProductButton icon="fa fa-exchange" />
+          </div>
         </div>
       </div>
       <div className="div-lower">
