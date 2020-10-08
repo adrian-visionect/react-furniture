@@ -2,6 +2,98 @@
   height: 610px;
   display: flex;
   margin: 0 auto;
+  .items {
+    margin: 50px 252px;
+    height: 510px;
+    width: 100%;
+    display: flex;
+    .table {
+      background-color: #eeeeee;
+      height: 100%;
+      width: 570px;
+      display: flex;
+      flex-direction: row;
+      img {
+        width: 100%;
+      }
+      .table-info {
+        margin-left: 40px;
+        margin-top: 23px;
+        position: absolute;
+      }
+    }
+    .product-info {
+      display: flex;
+      color: #424242;
+      z-index: 200;
+      height: 100px;
+      h1 {
+        font-family: Playfair Display, arial;
+        font-size: 32px;
+        position: absolute;
+        margin-top: 32px;
+        width: 200px;
+        text-align: left;
+      }
+      p {
+        font-family: roboto, arial;
+        font-size: 16px;
+      }
+      h5 {
+        font-family: roboto, arial;
+        font-size: 22px;
+        position: absolute;
+        margin-top: 76px;
+        width: 200px;
+        text-align: left;
+      }
+    }
+    .chair-white {
+      margin-left: 30px;
+      background-color: #eeeeee;
+      height: 510px;
+      width: 330px;
+      .chair-white-info {
+        margin-left: 40px;
+        margin-top: -200px;
+        position: absolute;
+      }
+    }
+    .rest {
+      width: 430px;
+      margin-left: 30px;
+      display: flex;
+      flex-direction: column;
+      .chair-yellow {
+        margin-bottom: 19px;
+        height: 245px;
+        width: 453px;
+        background-image: linear-gradient(to right, #eeeeee, lightgray);
+        img {
+          opacity: 0.6;
+        }
+        .chair-yellow-info {
+          position: absolute;
+          margin-left: 40px;
+          margin-top: -230px;
+        }
+      }
+
+      .sofas {
+        height: 245px;
+        width: 453px;
+        background-image: linear-gradient(to right, white, lightgray);
+        img {
+          opacity: 0.7;
+        }
+        .sofas-info {
+          margin-left: 40px;
+          margin-top: -230px;
+          position: absolute;
+        }
+      }
+    }
+  }
 }
 
 .btn-ShopNowWhite {
@@ -15,102 +107,4 @@
   position: absolute;
   margin-top: 113px;
   cursor: pointer;
-}
-
-.items {
-  margin: 50px 252px;
-  height: 510px;
-  width: 100%;
-  display: flex;
-}
-
-.product-info {
-  display: flex;
-  color: #424242;
-  z-index: 200;
-  height: 100px;
-  h1 {
-    font-family: Playfair Display, arial;
-    font-size: 32px;
-    position: absolute;
-    margin-top: 32px;
-    width: 200px;
-    text-align: left;
-  }
-  p {
-    font-family: roboto, arial;
-    font-size: 16px;
-  }
-  h5 {
-    font-family: roboto, arial;
-    font-size: 22px;
-    position: absolute;
-    margin-top: 76px;
-    width: 200px;
-    text-align: left;
-  }
-}
-
-.table {
-  background-color: #eeeeee;
-  height: 100%;
-  width: 570px;
-  display: flex;
-  flex-direction: row;
-  img {
-    width: 100%;
-  }
-  .table-info {
-    margin-left: 40px;
-    margin-top: 23px;
-    position: absolute;
-  }
-}
-
-.chair-white {
-  margin-left: 30px;
-  background-color: #eeeeee;
-  height: 510px;
-  width: 330px;
-  .chair-white-info {
-    margin-left: 40px;
-    margin-top: -200px;
-    position: absolute;
-  }
-}
-
-.chair-yellow {
-  margin-bottom: 19px;
-  height: 245px;
-  width: 453px;
-  background-image: linear-gradient(to right, #eeeeee, lightgray);
-  img {
-    opacity: 0.6;
-  }
-  .chair-yellow-info {
-    position: absolute;
-    margin-left: 40px;
-    margin-top: -230px;
-  }
-}
-
-.sofas {
-  height: 245px;
-  width: 453px;
-  background-image: linear-gradient(to right, white, lightgray);
-  img {
-    opacity: 0.7;
-  }
-  .sofas-info {
-    margin-left: 40px;
-    margin-top: -230px;
-    position: absolute;
-  }
-}
-
-.rest {
-  width: 430px;
-  margin-left: 30px;
-  display: flex;
-  flex-direction: column;
 }
