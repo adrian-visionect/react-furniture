@@ -6,6 +6,7 @@ import './App.css';
 import CoffeeTables from './components/CoffeeTables/CoffeeTables';
 import ProductsList from './components/ProductsList/ProductsList';
 import Sale from './components/Sale/Sale';
+import Bestseller from './components/Bestseller/Bestseller';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <CoffeeTables />
       <ProductsList />
       <Sale />
+      <Bestseller />
     </div>
   );
 }
