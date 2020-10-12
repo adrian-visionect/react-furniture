@@ -5,7 +5,50 @@
   margin: 0 130px;
   margin-left: 0;
   .bestseller-container {
-    // display: flex;
+    display: flex;
+    // height: 560px;
+    width: 1535px;
     // background-color: #eeeeee;
+    margin-top: 240px;
+    // background-color: greenyellow;
+    margin-left: 255px;
+    .bestseller-nav-items {
+      height: 38px;
+      width: 100%;
+      // background-color: white;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      hr {
+        margin-top: -15px;
+        width: 425px;
+        height: 1px;
+        margin-left: 0;
+        background-color: #757575;
+      }
+    }
+    .nav-item {
+      width: 450px;
+      text-align: left;
+      display: flex;
+      p {
+        width: 100%;
+        font-family: roboto, arial;
+        // font-weight: bold;
+        font-size: 22px;
+      }
+
+      .btn-back-next {
+        background-color: transparent;
+        width: 140px;
+        border: none;
+        cursor: pointer;
+        color: #616161;
+        font-size: 14px;
+        font-family: roboto, arial;
+        height: 20px;
+        margin-top: 26px;
+      }
+    }
   }
 }
