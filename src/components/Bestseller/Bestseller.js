@@ -1,5 +1,6 @@
 import React from 'react';
 import './Bestseller.scss';
+import BestsellerProducts from './BestsellerProducts';
 import NavItem from './NavItem';
 
 const Bestseller = () => {
@@ -17,8 +18,10 @@ const Bestseller = () => {
             <NavItem navName="Featured" />
           </div>
         </div>
+        <div className="bestseller-products">
+          <BestsellerProducts />
+        </div>
       </div>
-      <div className="bestseller-products"></div>
     </div>
   );
 };

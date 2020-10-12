@@ -9,7 +9,7 @@
     // height: 560px;
     width: 1535px;
     // background-color: #eeeeee;
-    margin-top: 240px;
+    margin-top: 200px;
     // background-color: greenyellow;
     margin-left: 255px;
     .bestseller-nav-items {
@@ -48,6 +48,59 @@
         font-family: roboto, arial;
         height: 20px;
         margin-top: 26px;
+      }
+    }
+  }
+  .bestseller-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 70px;
+    width: 1350px;
+    height: 448px;
+    .bestseller-single-product {
+      display: flex;
+      // justify-content: space-between;
+      margin-top: -40px;
+      width: 33%;
+    }
+    .bs-items {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      text-align: left;
+      font-family: roboto, arial;
+      h5 {
+        font-size: 16px;
+      }
+      p {
+        margin-top: -17px;
+      }
+      span {
+        text-decoration: line-through;
+      }
+      img {
+        background-color: white;
+      }
+      .btn-addToCart {
+        border: 1px solid #212121;
+        height: 45px;
+        width: 141px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: roboto, arial;
+        font-size: 16px;
+        margin-top: 111px;
+      }
+      .bs-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: -20px;
+        margin-left: 25px;
       }
     }
   }
