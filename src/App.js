@@ -7,6 +7,7 @@ import CoffeeTables from './components/CoffeeTables/CoffeeTables';
 import ProductsList from './components/ProductsList/ProductsList';
 import Sale from './components/Sale/Sale';
 import Bestseller from './components/Bestseller/Bestseller';
+import Collections from './components/Collections/Collections';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <ProductsList />
       <Sale />
       <Bestseller />
+      <Collections />
     </div>
   );
 }

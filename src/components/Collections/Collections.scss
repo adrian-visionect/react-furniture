@@ -1,0 +1,54 @@
+.collections {
+  display: flex;
+  height: 536px;
+  margin: 0 130px;
+  .col-container {
+    margin-top: 102px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    img {
+      width: 100%;
+      height: 354px;
+      opacity: 0.7;
+    }
+    .col-item {
+      position: relative;
+      background-color: #eeeeee;
+      width: 535px;
+      margin-left: 10px;
+      height: 354px;
+
+      .col-info {
+        margin-left: 40px;
+        margin-top: -340px;
+        position: absolute;
+        h1 {
+          font-family: Playfair Display, arial;
+          font-size: 35px;
+          position: absolute;
+          margin-top: -20px;
+          width: 300px;
+          text-align: left;
+        }
+        p {
+          font-family: roboto, arial;
+          font-size: 20px;
+        }
+        .btn-ShopNowWhite {
+          font-family: roboto, arial;
+          font-weight: bold;
+          height: 45px;
+          width: 133px;
+          background-color: transparent;
+          border-radius: 0%;
+          border: 1px solid #424242;
+          position: absolute;
+          margin-top: 43px;
+          cursor: pointer;
+          left: 0;
+        }
+      }
+    }
+  }
+}
