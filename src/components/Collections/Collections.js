@@ -13,8 +13,8 @@ const Collections = () => {
             </div>
             <div className="col-container">
                 <ColItem colImg={yellowCol} colName="New Year Special" colTitle="Big Sale 50% Off" />
-                <ColItem colImg={barstool} colName="New Year Special" colTitle="Big Sale 50% Off" />
-                <ColItem colImg={chairCol} colName="New Year Special" colTitle="Big Sale 50% Off" />
+                <ColItem colImg={barstool} colName="#New Arrivals" colTitle="Suitable Wood Tool" />
+                <ColItem colImg={chairCol} colName="#Hot Collections" colTitle="Wood Rubber Chair" />
             </div>
         </div>
      );

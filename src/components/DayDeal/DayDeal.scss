@@ -1,0 +1,81 @@
+.day-deal {
+  height: 673px;
+  display: flex;
+  background-color: #eeeeee;
+  .day-deal-container {
+    height: 553px;
+    display: flex;
+    margin: 60px 255px;
+    background-color: white;
+    width: 100%;
+    box-shadow: -2px 1px 25px -8px rgba(130, 123, 130, 1);
+    .deal-info {
+      margin-top: 84px;
+      margin-left: 240px;
+      text-align: left;
+
+      p {
+        font-size: 18px;
+        font-family: roboto, arial;
+      }
+      h1 {
+        font-family: Playfair Display, arial;
+        font-size: 36px;
+        margin-top: -20px;
+      }
+      h2 {
+        font-family: roboto, arial;
+        font-size: 24px;
+        color: #616161;
+        margin-top: 35px;
+      }
+      h3 {
+        font-family: roboto, arial;
+        font-size: 30px;
+        margin-top: -15px;
+      }
+      .price-span {
+        text-decoration: line-through;
+        font-size: 24px;
+      }
+      .btn-ShopNow {
+        width: 143px;
+        height: 49px;
+        margin-top: 40px;
+      }
+      .clock {
+        display: flex;
+        p {
+          font-size: 24px;
+          margin: 5px;
+          margin-top: 24px;
+        }
+        .div-time {
+          border: 1px solid black;
+          border-radius: 10%;
+          height: 90px;
+          width: 70px;
+          display: flex;
+          flex-flow: column;
+          justify-content: center;
+          align-items: center;
+          span {
+            font-size: 30px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+  .deal-image {
+    width: 570px;
+    height: 453px;
+    background-color: #eeeeee;
+    margin: 50px 200px 50px 200px;
+    img {
+      width: 100%;
+      //   position: absolute;
+      height: 100%;
+    }
+  }
+}
