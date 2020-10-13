@@ -1,6 +1,7 @@
 import React from 'react';
 import ProductButton from './ProductButton';
 import stars from './../../images/star.png';
+import './ProductCard.scss'
 const ProductCard = (props) => {
   return (
     <div className="prod-card">

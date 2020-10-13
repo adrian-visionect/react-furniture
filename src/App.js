@@ -9,6 +9,7 @@ import Sale from './components/Sale/Sale';
 import Bestseller from './components/Bestseller/Bestseller';
 import Collections from './components/Collections/Collections';
 import DayDeal from './components/DayDeal/DayDeal';
+import Decorations from './components/Decorations/Decorations'
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
       <Bestseller />
       <Collections />
       <DayDeal />
+      <Decorations />
     </div>
   );
 }

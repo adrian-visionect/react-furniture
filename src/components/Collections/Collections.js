@@ -9,7 +9,6 @@ const Collections = () => {
     return ( 
         <div className="collections">
             <div className="col-buttons">
-
             </div>
             <div className="col-container">
                 <ColItem colImg={yellowCol} colName="New Year Special" colTitle="Big Sale 50% Off" />
