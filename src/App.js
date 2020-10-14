@@ -12,6 +12,7 @@ import DayDeal from './components/DayDeal/DayDeal';
 import Decorations from './components/Decorations/Decorations'
 import Architects from './components/Architects/Architects';
 import Newsletter from './components/Newsletter/Newsletter';
+import OurBlogs from './components/OurBlogs/OurBlogs';
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,7 @@ function App() {
       <Decorations />
       <Architects />
       <Newsletter />
+      <OurBlogs />
     </div>
   );
 }
