@@ -11,6 +11,7 @@ import Collections from './components/Collections/Collections';
 import DayDeal from './components/DayDeal/DayDeal';
 import Decorations from './components/Decorations/Decorations'
 import Architects from './components/Architects/Architects';
+import Newsletter from './components/Newsletter/Newsletter';
 function App() {
   return (
     <div className="App">
@@ -25,6 +26,7 @@ function App() {
       <DayDeal />
       <Decorations />
       <Architects />
+      <Newsletter />
     </div>
   );
 }
