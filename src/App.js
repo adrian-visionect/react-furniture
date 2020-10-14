@@ -10,6 +10,7 @@ import Bestseller from './components/Bestseller/Bestseller';
 import Collections from './components/Collections/Collections';
 import DayDeal from './components/DayDeal/DayDeal';
 import Decorations from './components/Decorations/Decorations'
+import Architects from './components/Architects/Architects';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
       <Collections />
       <DayDeal />
       <Decorations />
+      <Architects />
     </div>
   );
 }

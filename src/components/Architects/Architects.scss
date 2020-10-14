@@ -1,16 +1,17 @@
-.decorations {
+.architects {
   display: flex;
   height: 652px;
   background-color: #f5f5f5;
-  .dec {
+  .arch {
     margin-right: 130px;
-    background-color: #eeeeee;
+    background-color: #f5f5f5;
     width: 100%;
-    .dec-container {
+    .arch-container {
       margin: 60px 124px;
+      margin-left: 220px;
       display: flex;
-      .dec-info {
-        margin-left: 125px;
+      .arch-info {
+        margin-left: 45px;
         margin-top: 48px;
         width: 329px;
         text-align: left;
@@ -28,11 +29,16 @@
           margin-top: 40px;
         }
       }
-      .dec-items {
+      .arch-items {
         height: 532px;
         width: 1052px;
         display: flex;
         justify-content: space-between;
+        .div-upper {
+          img {
+            background-color: #eeeeee;
+          }
+        }
       }
     }
   }
