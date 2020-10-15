@@ -16,9 +16,24 @@ const OurBlogs = () => {
             suspension, wall, floor and table lights
           </p>
           <div className="blogs">
-            <Blog blogImg={blog1} />
-            <Blog blogImg={blog2} />
-            <Blog blogImg={blog3} />
+            <Blog
+              title="Lorem ipsum dolor sit amet, consetetur"
+              date="Furniture, Other / September 11,2018"
+              desc="Lorem ipsum dolor sit amet, sadipscing elitr, sed"
+              blogImg={blog1}
+            />
+            <Blog
+              title="Lorem ipsum dolor sit amet, consetetur"
+              date="Furniture, Other / September 11,2018"
+              desc="Lorem ipsum dolor sit amet, sadipscing elitr, sed"
+              blogImg={blog2}
+            />
+            <Blog
+              title="Lorem ipsum dolor sit amet, consetetur"
+              date="Furniture, Other / September 11,2018"
+              desc="Lorem ipsum dolor sit amet, sadipscing elitr, sed"
+              blogImg={blog3}
+            />
           </div>
         </div>
       </div>
@@ -26,5 +41,3 @@ const OurBlogs = () => {
   );
 };
 export default OurBlogs;
-
-// Lorem ipsum dolor sit amet, sadipscing elitr, sed
