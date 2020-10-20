@@ -15,6 +15,7 @@ import Newsletter from './components/Newsletter/Newsletter';
 import OurBlogs from './components/OurBlogs/OurBlogs';
 import Rules from './components/Rules/Rules';
 import Producers from './components/Producers/Producers';
+import Informations from './components/Informations/Informations';
 function App() {
   return (
     <div className="App">
@@ -33,6 +34,7 @@ function App() {
       <OurBlogs />
       <Rules />
       <Producers />
+      <Informations />
     </div>
   );
 }
