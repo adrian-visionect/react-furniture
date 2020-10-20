@@ -17,6 +17,7 @@ import Rules from './components/Rules/Rules';
 import Producers from './components/Producers/Producers';
 import Informations from './components/Informations/Informations';
 import Footer from './components/Footer/Footer';
+
 function App() {
   return (
     <div className="App">
