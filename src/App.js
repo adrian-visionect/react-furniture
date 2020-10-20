@@ -9,10 +9,11 @@ import Sale from './components/Sale/Sale';
 import Bestseller from './components/Bestseller/Bestseller';
 import Collections from './components/Collections/Collections';
 import DayDeal from './components/DayDeal/DayDeal';
-import Decorations from './components/Decorations/Decorations'
+import Decorations from './components/Decorations/Decorations';
 import Architects from './components/Architects/Architects';
 import Newsletter from './components/Newsletter/Newsletter';
 import OurBlogs from './components/OurBlogs/OurBlogs';
+import Rules from './components/Rules/Rules';
 function App() {
   return (
     <div className="App">
@@ -29,6 +30,7 @@ function App() {
       <Architects />
       <Newsletter />
       <OurBlogs />
+      <Rules />
     </div>
   );
 }

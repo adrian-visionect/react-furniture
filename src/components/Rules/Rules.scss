@@ -1,0 +1,36 @@
+.rules {
+  height: 345px;
+  display: flex;
+  //   width: 100%;
+  background-color: white;
+  .rules-container {
+    display: flex;
+    margin: 100px 330px;
+    background-color: white;
+    font-family: roboto, arial;
+    height: auto;
+    width: 1332px;
+
+    .item {
+      display: flex;
+      flex-flow: column;
+      justify-content: flex-end;
+      align-items: center;
+      flex-grow: 1;
+
+      p {
+        font-size: 50px;
+        // position: absolute;
+      }
+      h1 {
+        font-size: 20px;
+        margin-top: -50px;
+      }
+      h2 {
+        font-size: 16px;
+        margin-top: -10px;
+        font-weight: normal;
+      }
+    }
+  }
+}
