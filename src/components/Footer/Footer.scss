@@ -1,0 +1,15 @@
+.footer {
+  height: 75px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  hr {
+    width: 1440px;
+  }
+  p {
+    font-family: roboto, arial;
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+}
